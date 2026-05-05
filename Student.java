@@ -44,6 +44,7 @@ public class Student
         for(int i=1 ; i<=9; i++){
             System.out.print(gugudan+"x"+i+"="+gugudan*i+" ");
         }
+        // System.out.println("");
     }    
 
     /**
@@ -52,10 +53,11 @@ public class Student
      * @param  gugudan
      * @return  없음
      */
-    public void calculateGugudan(int gugudan){
+    public void calculateGugu(int gugudan){
         for(int i=1 ; i<=9; i++){
             System.out.print(gugudan+"x"+i+"="+gugudan*i+" ");
         }
+        // System.out.println("");
     }
 
     /**

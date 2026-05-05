@@ -14,23 +14,32 @@ public class MyApp
         Student s4 = new Student("MARIA","R029",2);
         
         //s1.JENNA학생 구구단 답하기
-        System.out.println(s1.getName() + "에게" + s1.getGugudan() + "단을 답해주세요~");
-        s1.calculateGugudan();
-        System.out.println();
+        System.out.println(s1.getName() + "에게 " + s1.getGugudan() + "단을 답해주세요~");
+        s1.calculateGugu();
+        
+        System.out.println("");
+        System.out.println("");
         
         //s2.JAMES학생 구구단 답하기
-        System.out.println(s2.getName() + "에게" + s2.getGugudan() + "단을 답해주세요~");
-        s2.calculateGugudan();
-        System.out.println();
+        System.out.println(s2.getName() + "에게 " + s2.getGugudan() + "단을 답해주세요~");
+        s2.calculateGugu();
+        
+        System.out.println("");
+        System.out.println("");
         
         //s3.JOHN학생 구구단 답하기
-        System.out.println(s3.getName() + "에게" + s3.getGugudan() + "단을 답해주세요~");
-        s3.calculateGugudan();
-        System.out.println();
+        System.out.println(s3.getName() + "에게 " + s3.getGugudan() + "단을 답해주세요~");
+        s3.calculateGugu();
+
+        System.out.println("");
+        System.out.println("");
         
         //s4.MARIA학생 구구단 답하기
-        System.out.println(s4.getName() + "에게" + s4.getGugudan() + "단을 답해주세요~");
-        s4.calculateGugudan();
-        System.out.println();
+        System.out.println(s4.getName() + "에게 " + s4.getGugudan() + "단을 답해주세요~");
+        s4.calculateGugu();
+
+        
+        System.out.println("");
+        System.out.println("");
     }
 }
