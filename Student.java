@@ -67,4 +67,12 @@ public class Student
     public void setGugudan(int gugudan){
         this.gugudan=gugudan;
         }  
+    
+    public String getName(){
+        return name;
+    }
+    
+    public int getGugudan(){
+        return gugudan;
+    }
 }
