@@ -33,7 +33,7 @@ public class Student
         this.StudentId=StudentId;
         this.gugudan=gugudan;
     }
-    
+
     /**
      * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
      *
@@ -42,10 +42,10 @@ public class Student
      */
     public void calculateGugu(){
         for(int i=1 ; i<=9; i++){
-            System.out.print(gugudan+"x"+i+"="+gugudan*i);
+            System.out.print(gugudan+"x"+i+"="+gugudan*i+" ");
         }
     }    
-    
+
     /**
      * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
      *
@@ -54,10 +54,10 @@ public class Student
      */
     public void calculateGugudan(int gugudan){
         for(int i=1 ; i<=9; i++){
-            System.out.print(gugudan+"x"+i+"="+gugudan*i);
+            System.out.print(gugudan+"x"+i+"="+gugudan*i+" ");
         }
     }
-    
+
     /**
      * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
      *
@@ -66,17 +66,14 @@ public class Student
      */
     public void setGugudan(int gugudan){
         this.gugudan=gugudan;
-<<<<<<< HEAD
-        }  
-    
+    }  
+
     public String getName(){
         return name;
     }
-    
+
     public int getGugudan(){
         return gugudan;
     }
-=======
-        }   
->>>>>>> 37f05be9f428ac08e91439ae2b2b9e2f2202d373
-}
+
+}   
