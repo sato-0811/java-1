@@ -8,10 +8,10 @@
 public class MyApp
 {
     public static void main(String [] args){
-        Student s1 = new Student("JENNA",R005,4);
-        Student s2 = new Student("JAMES",R009,9);
-        Student s3 = new Student("JOHN",R010,7);
-        Student s4 = new Student("MARIA",R029,2);
+        Student s1 = new Student("JENNA","R005",4);
+        Student s2 = new Student("JAMES","R009",9);
+        Student s3 = new Student("JOHN","R010",7);
+        Student s4 = new Student("MARIA","R029",2);
         
         
     }
