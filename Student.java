@@ -1,9 +1,10 @@
 
 /**
- * Student 클래스의 설명을 작성하세요.
+ * Student 클래스란 학생의 이름, ID, 그리고 담당 구구단을 저장하고
+ * 구구단을 계산하여 출력하는 클래스이다.
  *
- * @author (작성자 이름)
- * @version (버전 번호 또는 작성한 날짜)
+ * @author (,2025320057 홍권찬,)
+ * @version (20260505)
  */
 public class Student
 {
@@ -12,7 +13,7 @@ public class Student
     private int gugudan;
 
     /**
-     * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
+     * 메소드 예제 -  학생의 이름과 학번을 초기화하는 생성자
      *
      * @param  name , studentId
      * @return 없음
@@ -23,7 +24,8 @@ public class Student
     }
 
     /**
-     * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
+     * 메소드 예제 - 학생의 이름, 학번, 구구단을 초기화하는 생성자
+     *
      *
      * @param  name, StudentId, gugudan
      * @return 없음
@@ -35,7 +37,7 @@ public class Student
     }
 
     /**
-     * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
+     * 메소드 예제 - 객체에 저장된 구구단 값을 이용하여 1부터 9까지의 구구단을 출력한다.
      *
      * @param 
      * @return 없음
@@ -48,7 +50,7 @@ public class Student
     }    
 
     /**
-     * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
+     * 메소드 예제 - 입력받은 구구단 값을 이용하여 1부터 9까지의 구구단을 출력한다.
      *
      * @param  gugudan
      * @return  없음
@@ -61,7 +63,7 @@ public class Student
     }
 
     /**
-     * 메소드 예제 - 사용자에 맞게 주석을 바꾸십시오.
+     * 메소드 예제 - 구구단 값을 설정한다.
      *
      * @param  y  메소드의 샘플 파라미터
      * @return    x 와 y의 합
@@ -70,10 +72,20 @@ public class Student
         this.gugudan=gugudan;
     }  
 
+    /**
+     * 학생의 이름을 반환한다.
+     *
+     * @return 학생 이름
+     */
     public String getName(){
         return name;
     }
 
+    /**
+     * 설정된 구구단 값을 반환한다.
+     *
+     * @return 구구단 값
+     */
     public int getGugudan(){
         return gugudan;
     }

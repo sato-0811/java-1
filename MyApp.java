@@ -1,9 +1,9 @@
 
 /**
- * MyApp 클래스의 설명을 작성하세요.
+ * MyApp 클래스란 여러 Student 객체를 생성하고,각 학생이 담당하는 구구단을 순서대로 출력하도록 제어한다.
  *
- * @author (작성자 이름)
- * @version (버전 번호 또는 작성한 날짜)
+ * @author (,2025320057 홍권찬,)
+ * @version (20260505)
  */
 public class MyApp
 {
