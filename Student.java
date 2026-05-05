@@ -8,7 +8,7 @@
 public class Student
 {
     private String name;
-    private int StudentId;
+    private String StudentId;
     private int gugudan;
 
     /**
@@ -17,7 +17,7 @@ public class Student
      * @param  name , studentId
      * @return 없음
      */
-    public Student(String name, int StudentId){
+    public Student(String name, String StudentId){
         this.name=name;
         this.StudentId=StudentId;
     }
@@ -28,7 +28,7 @@ public class Student
      * @param  name, StudentId, gugudan
      * @return 없음
      */
-    public Student(String name, int StudentId, int gugudan){
+    public Student(String name, String StudentId, int gugudan){
         this.name=name;
         this.StudentId=StudentId;
         this.gugudan=gugudan;
