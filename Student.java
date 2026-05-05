@@ -17,7 +17,7 @@ public class Student
      * @param  y  메소드의 샘플 파라미터
      * @return    x 와 y의 합
      */
-    public Student(){
+    public Student(String name, int StudentId){
         this.name=name;
         this.StudentId=StudentId;
     }
